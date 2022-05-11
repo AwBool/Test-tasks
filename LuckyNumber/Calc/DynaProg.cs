@@ -3,6 +3,9 @@ using Num = System.UInt64;
 
 namespace LuckyNumber
 {
+    /// <summary>
+    /// Методом динамического программирования
+    /// </summary>
     public class DynaProg : ILuckyNumbers
     {
         private Num[][] _variants;

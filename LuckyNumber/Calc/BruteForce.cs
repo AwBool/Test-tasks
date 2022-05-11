@@ -5,7 +5,9 @@ using Num = System.UInt64;
 
 namespace LuckyNumber
 {
-
+    /// <summary>
+    /// Полный перебор и проверка вариантов
+    /// </summary>
     public class BruteForce : ILuckyNumbers
     {
         public Num GetCount(int basis, int digits)
